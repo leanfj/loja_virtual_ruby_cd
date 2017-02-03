@@ -10,7 +10,7 @@ class Livro
 		@preco = preco
 	end
 	def to_s
-		"Autor: #{@autor}, Isbn: #{@isbn}, Páginas: #{@numero_de_paginas}"
+		"Autor: #{@autor}, Isbn: #{@isbn}, Páginas: #{@numero_de_paginas}, Preço: #{@preco}"
 	end
 	
 end
