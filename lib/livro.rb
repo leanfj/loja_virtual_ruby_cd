@@ -1,6 +1,9 @@
 # enconding: utf-8
 
 class Livro
+	attr_writer :preco
+	attr_reader :preco
+
 	def initialize(autor, isbn = "1", numero_de_paginas, preco)
 		@autor = autor
 		@isbn = isbn
@@ -12,5 +15,10 @@ class Livro
 	end
 	def preco
 		@preco
+	end
+
+	def preco=(preco)
+		@preco = preco
+		
 	end
 end
