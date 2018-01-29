@@ -3,7 +3,7 @@ Repositório para conclusão prática do Livro Ruby - Aprenda a programar na lin
 
 Anotações:
 
-##Interpolação: #{variável}
+## Interpolação: #{variável}
 
 Ex.
 ```ruby
@@ -12,7 +12,7 @@ Ex.
     puts saudacao # => Seja bem vinda(o) Joana
 ```
 
-##Estruturas de controle
+## Estruturas de controle
 
 if:
 
